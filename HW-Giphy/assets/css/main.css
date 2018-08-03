@@ -1,0 +1,15 @@
+.d-f {
+    display: flex;
+    background-color: lightseagreen;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+    background-color: Mediumblue;
+    margin: 10%;
+
+}
+
+.jc-sa {
+    justify-content: space-around;
+}

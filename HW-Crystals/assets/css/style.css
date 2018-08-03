@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+.header h1 {
+    width: 22%;
+    background-color: darkorange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.instructions {
+    background-color: lightblue;
+    color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 15px;
+    width: 25%;
+}
+
+.numberToMatch {
+    width: 22%;
+    background-color: rgb(33, 207, 164);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.winsAndLosses {
+    background-color: rgb(64, 19, 224);
+    color: rgb(10, 63, 124);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 22%;
+ 
+}
+.userTotal {
+    width: 22%;
+    background-color: rgb(223, 20, 196);
+    color: rgba(250, 4, 86, 0.651);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "liribot",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "npm": "^6.3.0",
+    "twitter": "^1.7.1"
+  }
+}

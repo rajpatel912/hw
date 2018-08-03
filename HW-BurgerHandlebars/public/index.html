@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Burger - Sequelize</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/lumen/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" media="screen" title="no title">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class='header'>
+        <h1>Eat the Burger</h1>
+    </div>
+
+    <div>
+      <!-- method="POST" action="/api/newBurger"--> 
+        <form class="form">
+            <div class="form-group">
+                <input type="text" class="form-control userInput" placeholder="Add burger name here"/>
+            </div>                
+            <button type="submit" class="btn btn-primary">Add Burgers</button>
+        </form>
+    </div>
+      <div class="burger-wrapper">
+        <div class="fresh-burgers">
+          <h3>Fresh burgers</h3>
+          <span class="burger-container">
+          </span>
+        </div>
+        <div class="eaten-burgers">
+          <h3>Eaten burgers</h3>
+          <span class="burger-devoured">
+          </span>
+        </div>
+      </div>
+  </div>
+  <!-- Custom Script -->
+  <script src="./js/view.js" type="text/javascript"></script>
+
+</body>
+
+</html>

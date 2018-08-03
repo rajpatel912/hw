@@ -1,0 +1,30 @@
+.burger {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .burger-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fresh-burgers {
+    border: 1px solid rgb(148, 29, 29);
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .eaten-burgers {
+    border: 1px solid rgb(8, 235, 95);
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .header {
+    text-align: center;
+  }
